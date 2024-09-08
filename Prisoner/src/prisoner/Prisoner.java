@@ -181,7 +181,7 @@ public static String options = "\nMAIN MENU\n0 - Clear centers, 1 - List centers
 		}
 		System.out.println("The current occupancy of the center at index " + idxFrom + " is : " + gPrisoner[idxFrom]);
 		
-		System.out.println("Enter the number of prisoners to transfer to the other center (0 - " + gPrisoner[idxFrom] + ") :");			//extra credit: trannsfer prisoners between centers
+		System.out.println("Enter the number of prisoners to transfer to the other center (0 - " + gPrisoner[idxFrom] + ") :");			//extra credit: transfer prisoners between centers
 		int move = gSCANNER.nextInt();
 		while(move > gPrisoner[idxFrom]) {
 			System.out.println("Not enough prisoners to move");
